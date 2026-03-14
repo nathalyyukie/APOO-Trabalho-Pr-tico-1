@@ -22,12 +22,13 @@ public class Exercicio18 { // classe principal do programa
 	
 	public static void main(String[] args) { // início do programa
 		
-		Scanner sc = new Scanner(System.in); // cria um objeto Scanner para ler o que o usuário digitar
+		Scanner sc = new Scanner(System.in); // cria um objeto Scanner pra ler o que o usuário digitar
 		
 		System.out.print("Digite uma frase: "); // pede pro usuário digitar uma frase
-		String frase = sc.nextLine(); //lê a frase digitada
+		String frase = sc.nextLine(); //lê a frase 
 		
-		String[] palavras = frase.split(" "); // separa a frase em palavras usando o espaço como separador
+		String[] palavras = frase.split(" "); // separa a frase em palavras usando o espaço como separador.
+		// o "split" serve pra dividir uma String em várias partes. O programa divide a frase onde tem espaço e vira um vetor de palavras
 		
 		int quantidade = palavras.length; //conta quantas palavras existem
 		
