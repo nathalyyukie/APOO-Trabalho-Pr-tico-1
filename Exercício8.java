@@ -1,0 +1,40 @@
+// Importa a classe Scanner para ler a entrada de dados do usuário
+import java.util.Scanner;
+
+public class Exercício8{
+    public static void main(String[] args) {
+        
+        // Instancia o Scanner para ler a entrada do console (System.in)
+        Scanner ler = new Scanner(System.in);
+
+        // Exibe uma instrução para o usuário no console
+        System.out.print("Digite uma palavra ou frase: ");
+        
+        // Lê a linha inteira digitada pelo usuário e armazena na variável 'texto'
+        String texto = ler.nextLine();
+        
+        // Variável int para ser o contador
+        int contador = 0;
+
+        // Converte o texto para minúsculo.
+        texto = texto.toLowerCase();
+
+        // Inicia um for que percorre cada posição (índice) da string, do 0 até o tamanho total
+        for (int i = 0; i < texto.length(); i++) {
+            
+            // Verifica o char que está na posição atual 'i' do loop
+            char caractere = texto.charAt(i);
+
+            // Verifica se o caractere atual é igual a qualquer uma das vogais
+            if (caractere == 'a' || caractere == 'e' || caractere == 'i' || caractere == 'o' || caractere == 'u') {
+                // Se for uma vogal, incrementa o valor da variável contador em +1
+                contador++;
+            }
+        } // Fim do laço de repetição
+
+        System.out.println("O número total de vogais é: " + contador);
+
+        // Fecha o Scanner para liberar memória
+        ler.close();
+    } 
+} 
