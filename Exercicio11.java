@@ -1,4 +1,4 @@
-/*
+/********************************************************************************************************************
 Curso: Engenharia de Software
 Disciplina: Análise e Projeto Orienta a Objetos
 Professor: José Carlos Flores
@@ -14,7 +14,7 @@ Componentes:
 Data: 18 de Março de 2026
 
 Descritivo: Programa que define uma classe Pessoa com atributos nome e idade, e metodos para exibir esses atributos.
-*/
+**********************************************************************************************************************/
 
 import java.util.Scanner;
 
