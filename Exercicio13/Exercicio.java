@@ -10,7 +10,8 @@ Componentes:
  25181985-2 - Nathaly Yukie Otofuji Honda
  25181898-2 - Pedro Paulo Rodrigues Mardegam
 Data: 18 de Março de 2026
-Descritivo: Escreva um programa que calcule a soma de dois números
+Descritivo: Escreva um programa que defina uma interface Veiculo com métodos acelerar() e frear(), e implemente 
+essa interface em uma classe Carro.
 *******************************************************************************/
 
 package Exercicio13;
