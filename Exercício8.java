@@ -10,7 +10,7 @@ Componentes:
  25181985-2 - Nathaly Yukie Otofuji Honda
  25181898-2 - Pedro Paulo Rodrigues Mardegam
 Data: 18 de Março de 2026
-Descritivo: Escreva um programa que calcule a soma de dois números
+Descritivo: Escreva um programa que conte o número de vogais em uma string fornecida pelo usuário
 *******************************************************************************/
 
 // Importa a classe Scanner para ler a entrada de dados do usuário
